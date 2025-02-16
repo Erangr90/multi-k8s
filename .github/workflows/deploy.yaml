@@ -25,10 +25,6 @@ jobs:
           credentials_json: "${{ secrets.GKE_SA_KEY }}"
           project_id: multi-k8s-451113
 
-      # - name: Set Project
-      #   uses: google-github-actions/setup-gcloud@v0
-      #   with:
-      #     project_id: multi-k8s-451113
 
       - name: Auth
         run: |-
